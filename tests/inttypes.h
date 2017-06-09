@@ -542,7 +542,7 @@ _GL_WARN_EXTERN_C int _gl_warn_on_use
 # endif
 #endif
 #ifdef INT64_MAX
-# if (0 ? defined _LP64 : 0)
+# if (0 ? defined _LP64 : 1)
 #  define _PRI64_PREFIX "l"
 # elif defined _MSC_VER || defined __MINGW32__
 #  define _PRI64_PREFIX "I64"
@@ -559,7 +559,7 @@ _GL_WARN_EXTERN_C int _gl_warn_on_use
 # endif
 #endif
 #ifdef UINT64_MAX
-# if (0 ? defined _LP64 : 0)
+# if (0 ? defined _LP64 : 1)
 #  define _PRIu64_PREFIX "l"
 # elif defined _MSC_VER || defined __MINGW32__
 #  define _PRIu64_PREFIX "I64"
@@ -1035,7 +1035,7 @@ _GL_WARN_EXTERN_C int _gl_warn_on_use
 # endif
 #endif
 #ifdef INT64_MAX
-# if (0 ? defined _LP64 : 0)
+# if (0 ? defined _LP64 : 1)
 #  define _SCN64_PREFIX "l"
 # elif defined _MSC_VER || defined __MINGW32__
 #  define _SCN64_PREFIX "I64"
@@ -1052,7 +1052,7 @@ _GL_WARN_EXTERN_C int _gl_warn_on_use
 # endif
 #endif
 #ifdef UINT64_MAX
-# if (0 ? defined _LP64 : 0)
+# if (0 ? defined _LP64 : 1)
 #  define _SCNu64_PREFIX "l"
 # elif defined _MSC_VER || defined __MINGW32__
 #  define _SCNu64_PREFIX "I64"

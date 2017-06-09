@@ -17,7 +17,7 @@ old_library='libunistring.a'
 inherited_linker_flags=' '
 
 # Libraries that this one depends upon.
-dependency_libs=' -liconv -L/usr/local/opt/valgrind/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/qt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/libxml2/lib -L/usr/local/opt/libpng/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib'
+dependency_libs=' -liconv -L/usr/local/opt/valgrind/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/qt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/portable-readline/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/libxml2/lib -L/usr/local/opt/libpng/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''

@@ -5,13 +5,13 @@
 /* #undef AC_APPLE_UNIVERSAL_BUILD */
 
 /* Define to the number of bits in type 'ptrdiff_t'. */
-#define BITSIZEOF_PTRDIFF_T 32
+#define BITSIZEOF_PTRDIFF_T 64
 
 /* Define to the number of bits in type 'sig_atomic_t'. */
 #define BITSIZEOF_SIG_ATOMIC_T 32
 
 /* Define to the number of bits in type 'size_t'. */
-#define BITSIZEOF_SIZE_T 32
+#define BITSIZEOF_SIZE_T 64
 
 /* Define to the number of bits in type 'wchar_t'. */
 #define BITSIZEOF_WCHAR_T 32
@@ -51,7 +51,7 @@
 /* #undef DOUBLE_SLASH_IS_DISTINCT_ROOT */
 
 /* Define to 1 if the package shall run at any location in the file system. */
-#define ENABLE_RELOCATABLE 1
+/* #undef ENABLE_RELOCATABLE */
 
 /* Define to nothing if C supports flexible array members, and to 1 if it does
    not. That way, with a declaration like 'struct s { int n; double
@@ -1555,7 +1555,7 @@
 
 /* Define to l, ll, u, ul, ull, etc., as suitable for constants of type
    'ptrdiff_t'. */
-#define PTRDIFF_T_SUFFIX 
+#define PTRDIFF_T_SUFFIX l
 
 /* Define to 1 if strerror(0) does not return a message implying success. */
 #define REPLACE_STRERROR_0 1
